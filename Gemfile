@@ -1,37 +1,66 @@
-source 'http://rubygems.org'
-
-gem 'rails', '3.1.3'
-
-# Bundle edge Rails instead:
-# gem 'rails',     :git => 'git://github.com/rails/rails.git'
-
-#gem 'sqlite3','1.3.3'
-gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
-
-
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.1.5'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
-end
-
-gem 'jquery-rails'
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
-
-group :test do
-  # Pretty printed test output
-  gem 'turn', '0.8.2', :require => false
-end
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff0000",
+        "stroke-width": 3.3,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.95038557052612,
+            -39.3283057748754
+          ],
+          [
+            -71.94961309432983,
+            -39.326031799139514
+          ],
+          [
+            -71.94905519485474,
+            -39.32443831222895
+          ],
+          [
+            -71.94862604141235,
+            -39.323226573923634
+          ],
+          [
+            -71.94841146469116,
+            -39.322628996619315
+          ],
+          [
+            -71.94744586944579,
+            -39.318512214239234
+          ],
+          [
+            -71.94545030593872,
+            -39.315789692806526
+          ],
+          [
+            -71.94547176361083,
+            -39.315358063825144
+          ],
+          [
+            -71.94600820541382,
+            -39.314926432180876
+          ],
+          [
+            -71.94605112075806,
+            -39.3147438179913
+          ],
+          [
+            -71.94506406784058,
+            -39.3130338619985
+          ],
+          [
+            -71.93969964981079,
+            -39.314195972562736
+          ]
+        ]
+      }
+    }
+  ]
+}
